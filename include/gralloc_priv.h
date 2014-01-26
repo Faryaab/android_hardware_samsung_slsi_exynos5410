@@ -30,6 +30,8 @@
 
 #include <hardware/gralloc.h>
 
+#define GRALLOC_USAGE_PRIVATE_NONSECURE 0x02000000
+
 #define ALIGN(x,a)	(((x) + (a) - 1L) & ~((a) - 1L))
 #define HW_ALIGN	32
 
